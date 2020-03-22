@@ -1,4 +1,4 @@
-# 0. 스터디 계획
+# 스터디 운영
 
 ## Goal
 * [모던 자바 인 액션](http://www.yes24.com/Product/Goods/77125987?scode=032&OzSrank=2)
