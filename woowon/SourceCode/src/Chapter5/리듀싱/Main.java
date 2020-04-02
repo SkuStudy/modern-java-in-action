@@ -22,7 +22,5 @@ public class Main {
         Optional<Integer> count = numbers.stream().map(x->1).reduce(Integer::sum);
 //        int count = numbers.stream().count();
         System.out.println("스트림 개수 구하기: "+count.get());
-
-
     }
 }
