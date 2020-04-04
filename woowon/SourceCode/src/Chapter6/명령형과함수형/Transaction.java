@@ -1,4 +1,4 @@
-package Chapter6.명령형과함수형.Case2;
+package Chapter6.명령형과함수형;
 
 public class Transaction {
     private final int year;

@@ -1,9 +1,9 @@
-package Chapter6.명령형과함수형.Case2;
+package Chapter6.명령형과함수형;
 
 public enum Currency {
     KOREA("한국", "KRW"),
-    America("미국", "USD"),
-    Japan("일본", "JPY");
+    AMERICA("미국", "USD"),
+    JAPAN("일본", "JPY");
 
     private final String country;
     private final String code;
