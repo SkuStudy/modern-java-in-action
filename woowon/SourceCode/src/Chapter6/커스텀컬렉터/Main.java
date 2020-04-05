@@ -28,6 +28,7 @@ public class Main {
                 .noneMatch(p -> candidate % p == 0);  //candidate가 소수에 의해 전부 나누어 떨어지지 않으면 true(소수), 하나라도 나눠지면 false (비소수)
     }
 
+    // Predicate 조건을 만족하지 않는 위치기준으로 이전 파트만 가져오는 메서드
     public static <A> List<A> takeWhile(List<A> list, Predicate<A> p){
         int i = 0;
         for (A item : list){

@@ -39,4 +39,8 @@ public class Main {
         System.out.println("- 함수형 프로그래밍 버전 -");
         transactionByCurrenciesEx.entrySet().forEach(System.out::println);
     }
+
+    private static void test1(List<?> test) {
+
+    }
 }

@@ -41,6 +41,7 @@ public class PrimeNumbersCollector implements Collector<Integer,
         return Function.identity();
     }
 
+    // 발견한 소수에 의미가 있으므로 UNORDERED X, CONCURRENT X
     @Override
     public Set<Characteristics> characteristics() {
         return Collections.unmodifiableSet(EnumSet.of(IDENTITY_FINISH));
