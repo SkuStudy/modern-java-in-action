@@ -31,7 +31,7 @@ public class main {
         //2
 //        inventory.sort((a1,a2)->a1.getWeight()-a2.getWeight());
         //3
-//        inventory.sort(comparing(apple->apple.getWeight()));
+        inventory.sort(comparing(apple->apple.getWeight()));
         //4
 //        inventory.sort(comparing(apple -> apple.getWeight()));
 

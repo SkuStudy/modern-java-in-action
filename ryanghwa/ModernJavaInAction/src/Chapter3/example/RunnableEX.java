@@ -19,6 +19,7 @@ public class RunnableEX {
 
         //람다 표현식으로 출력
         process(()->System.out.println("Hello World 3"));
+
     }
 
     public static void process(Runnable r){
