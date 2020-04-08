@@ -2,7 +2,6 @@ package Chapter3.example.생성자참조;
 
 import Chapter3.example.Apple.Apple;
 import Chapter3.example.Apple.Color;
-import sun.rmi.server.InactiveGroupException;
 
 import java.util.ArrayList;
 import java.util.Arrays;
