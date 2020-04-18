@@ -40,14 +40,14 @@
 |4|Chap8. 컬렉션 API 개선|이량화|
 |4|Chap9. 리팩터링, 테스팅, 디버깅|박춘소|
 |5|Chap10. 람다를 이용한 도메인 전용 언어|김건영|
-|6|Chap11. null 대신 Optional 클래스|이우원|
-||Chap12. 새로운 날짜와 시간 API||
-||Chap13. 디폴트 메서드||
-||Chap14. 자바 모듈 시스템||
-||Chap15. CompletableFuture와 리액티브 프로그래밍 컨셉의 기초||
-||Chap16. CompletableFuture : 안정적 비동기 프로그래밍||
-||Chap17. 리액티브 프로그래밍||
-||Chap18. 함수형 관점으로 생각하기||
-||Chap19. 함수형 프로그래밍 기법||
-||Chap20. OOP와 FP의 조화 : 자바와 스칼라 비교||
-||Chap21. 결론 그리고 자바의 미래||
+|5|Chap11. null 대신 Optional 클래스|이우원|
+|6|Chap12. 새로운 날짜와 시간 API||
+|6|Chap13. 디폴트 메서드||
+|6|Chap14. 자바 모듈 시스템||
+|7|Chap15. CompletableFuture와 리액티브 프로그래밍 컨셉의 기초||
+|7|Chap16. CompletableFuture : 안정적 비동기 프로그래밍||
+|8|Chap17. 리액티브 프로그래밍||
+|8|Chap18. 함수형 관점으로 생각하기||
+|9|Chap19. 함수형 프로그래밍 기법||
+|9|Chap20. OOP와 FP의 조화 : 자바와 스칼라 비교||
+|9|Chap21. 결론 그리고 자바의 미래||
