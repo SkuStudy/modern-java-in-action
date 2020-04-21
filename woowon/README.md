@@ -40,8 +40,34 @@
 
 [스트림으로 데이터 수집하기](https://www.notion.so/cdd3b4cc2fa64851909446041b2110e9)
 
-[`명령형, 함수형 프로그래밍 & 커스텀 컬렉터 생성 - 코드로 보기`](https://github.com/SkuStudy/modern-java-in-action/tree/master/woowon/SourceCode/src/Chapter6)
+[`명령형, 함수형 프로그래밍 & 커스텀 컬렉터 생성 - 코드 보기`](https://github.com/SkuStudy/modern-java-in-action/tree/master/woowon/SourceCode/src/Chapter6)
 
 ## 챕터 7. 병렬 데이터 처리와 성능
 
 [병렬 데이터 처리하기](https://www.notion.so/6e91c33daf944617bd9d696bb2e5bbff)
+
+[`커스텀 스플리레이터 생성 - 코드 보기`](https://github.com/SkuStudy/modern-java-in-action/tree/master/woowon/SourceCode/src/Chapter7/커스텀스플리터레이터)
+
+# PART 3. 스트림과 람다를 이용한 효과적 프로그래밍
+
+## 챕터 8. 컬렉션 API 개선
+
+[컬렉션 API 개선하기](https://www.notion.so/API-993119844221451e8b97ad917a81dd08)
+
+## 챕터 9. 리팩터링, 테스팅, 디버깅
+
+[리팩터링, 테스팅, 디버깅하기](https://www.notion.so/81f91eb705af447db8afff131e46950c)
+
+## 챕터 10. 람다를 이용한 도메인 전용 언어
+
+[람다를 이용한 도메인 전용 언어에 대하여](https://www.notion.so/bc19829fc68248f98e09c348d2d8fcfb)
+
+# PART 4. 매일 자바와 함께
+
+## 챕터 11. null 대신 Optional 클래스
+
+[null 대신 Optional 클래스 사용하기](https://www.notion.so/null-Optional-2b1c5a24f943488d96ac97062ab7f81a)
+
+# 공유할 것들
+
+[4/12일 스터디](https://www.notion.so/4-12-47fe5a7669e342148809ec0c72b324de)
