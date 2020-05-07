@@ -3,9 +3,7 @@ package Chapter8.example;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 
 public class List_메서드처리 {

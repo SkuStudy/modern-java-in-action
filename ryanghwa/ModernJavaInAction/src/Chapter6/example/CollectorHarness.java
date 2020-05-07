@@ -1,7 +1,5 @@
 package Chapter6.example;
 
-import Chapter3.example.function패키지.LambdasPredicate;
-
 import java.util.List;
 import java.util.Map;
 import java.util.function.Predicate;

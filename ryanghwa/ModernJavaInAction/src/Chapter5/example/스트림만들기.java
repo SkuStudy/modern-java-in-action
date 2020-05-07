@@ -1,7 +1,6 @@
 package Chapter5.example;
 
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class 스트림만들기 {
     public static void main(String[] args) {

@@ -1,11 +1,7 @@
 package Chapter8.example;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-
-import static java.util.Map.entry;
 
 public class 계산패턴_computerIfAbsent {
     public 계산패턴_computerIfAbsent(){

@@ -1,7 +1,5 @@
 package Chapter7.example;
 
-import java.util.stream.Stream;
-
 public class countWordsIteratively {
     public static void main(String[] args) {
         int count = countWordsIteratively("Hello world");

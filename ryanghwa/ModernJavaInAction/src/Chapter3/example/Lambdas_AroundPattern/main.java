@@ -1,7 +1,5 @@
 package Chapter3.example.Lambdas_AroundPattern;
 
-import Chapter3.example.function패키지.LambdasFunction;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

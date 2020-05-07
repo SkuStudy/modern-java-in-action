@@ -3,6 +3,7 @@ package chapter10.builder;
 import chapter10.builder.model.Order;
 import chapter10.builder.model.Stock;
 import chapter10.builder.model.Trade;
+
 import java.util.Arrays;
 
 /**
