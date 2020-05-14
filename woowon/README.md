@@ -68,6 +68,42 @@
 
 [null 대신 Optional 클래스 사용하기](https://www.notion.so/null-Optional-2b1c5a24f943488d96ac97062ab7f81a)
 
+## 챕터 12. 새로운 날짜와 시간 API
+
+[새로운 날짜와 시간 API 사용하기](https://www.notion.so/API-a4a7d419697f42eab8e4430f69a38a16)
+
+## 챕터 13. 디폴트 메서드
+
+[디폴트 메서드란 무엇인가?](https://www.notion.so/f4580e18bfc345fab245b9cd84d3ee17)
+
+## 챕터 14. 자바 모듈 시스템
+
+[자바 모듈 시스템](https://www.notion.so/3e619fcf477140be89d255a4cfa1e0c7)
+
+# PART 5. 개선된 자바 동시성
+
+## 챕터 15. CompletableFuture와 리액티브 프로그래밍 컨셉의 기초
+
+[CompletableFuture와 리액티브 프로그래밍 컨셉의 기초](https://www.notion.so/CompletableFuture-e1b8ddf334314518be88b18aaa6a84f2)
+
+## 챕터 16. CompletableFuture : 안정적 비동기 프로그래밍
+
+[안정적인 비동기 프로그래밍](https://www.notion.so/b976396d27c644dbba02feb2e7a36f30)
+
+## 챕터 17. 리액티브 프로그래밍
+
+[리액티브 프로그래밍](https://www.notion.so/c8f93d0c39a547d19c3ffdd780fe723f)
+
+# PART 6. 함수형 프로그래밍
+
+## 챕터 18. 함수형 관점으로 생각하기
+
+[함수형 관점으로 생각하기](https://www.notion.so/76c7f52916db4859a95b7d20919ebb00)
+
+## 챕터 19. 함수형 프로그래밍 기법
+
+[함수형 프로그래밍 기법](https://www.notion.so/74902f1243ce42ddbb767c7ece8934cc)
+
 # 공유할 것들
 
-[4/12일 스터디](https://www.notion.so/4-12-47fe5a7669e342148809ec0c72b324de)
+[자바의 몇 가지 차이점들](https://www.notion.so/47fe5a7669e342148809ec0c72b324de)
