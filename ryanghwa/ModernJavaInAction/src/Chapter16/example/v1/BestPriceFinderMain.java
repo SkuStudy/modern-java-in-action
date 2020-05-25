@@ -1,4 +1,4 @@
-package modernjavainaction.chap16.v1;
+package Chapter16.example.v1;
 
 import java.util.List;
 import java.util.function.Supplier;

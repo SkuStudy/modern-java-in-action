@@ -1,5 +1,7 @@
 package Chapter16.example.v1;
 
+import Chapter16.example.ExchangeService;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -15,8 +17,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import modernjavainaction.chap16.ExchangeService;
-import modernjavainaction.chap16.ExchangeService.Money;
 
 public class BestPriceFinder {
 
@@ -67,7 +67,7 @@ public class BestPriceFinder {
           CompletableFuture.supplyAsync(() -> shop.getPrice(product))
           .thenCombine(
               CompletableFuture.supplyAsync(
-                  () ->  ExchangeService.getRate(Money.EUR, Money.USD))
+                  () ->  ExchangeService.getRate(ExchangeService.Money.EUR, ExchangeService.Money.USD))
               // 자바 9에 추가된 타임아웃 관리 기능
               .completeOnTimeout(ExchangeService.DEFAULT_RATE, 1, TimeUnit.SECONDS),
               (price, rate) -> price * rate
@@ -92,7 +92,7 @@ public class BestPriceFinder {
       final Future<Double> futureRate = executor.submit(new Callable<Double>() {
         @Override
         public Double call() {
-          return ExchangeService.getRate(Money.EUR, Money.USD);
+          return ExchangeService.getRate(ExchangeService.Money.EUR, ExchangeService.Money.USD);
         }
       });
       Future<Double> futurePriceInUSD = executor.submit(new Callable<Double>() {
@@ -129,7 +129,7 @@ public class BestPriceFinder {
           CompletableFuture.supplyAsync(() -> shop.getPrice(product))
           .thenCombine(
               CompletableFuture.supplyAsync(
-                  () -> ExchangeService.getRate(Money.EUR, Money.USD)),
+                  () -> ExchangeService.getRate(ExchangeService.Money.EUR, ExchangeService.Money.USD)),
               (price, rate) -> price * rate
           ).thenApply(price -> shop.getName() + " price is " + price);
       priceFutures.add(futurePriceInUSD);
@@ -147,7 +147,7 @@ public class BestPriceFinder {
         .map(shop -> CompletableFuture
             .supplyAsync(() -> shop.getPrice(product))
             .thenCombine(
-                CompletableFuture.supplyAsync(() -> ExchangeService.getRate(Money.EUR, Money.USD)),
+                CompletableFuture.supplyAsync(() -> ExchangeService.getRate(ExchangeService.Money.EUR, ExchangeService.Money.USD)),
                 (price, rate) -> price * rate)
             .thenApply(price -> shop.getName() + " price is " + price));
     // 하지만 합치기 전에 연산이 실행되도록 CompletableFuture를 리스트로 모음

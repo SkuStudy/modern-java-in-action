@@ -1,10 +1,10 @@
 package Chapter16.example.v1;
 
-import static modernjavainaction.chap16.Util.delay;
-
 import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
+
+import static Chapter16.Shop.delay;
 
 public class Shop {
 

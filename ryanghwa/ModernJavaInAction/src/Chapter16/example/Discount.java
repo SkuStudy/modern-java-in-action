@@ -1,7 +1,8 @@
 package Chapter16.example;
 
-import static modernjavainaction.chap16.Util.delay;
-import static modernjavainaction.chap16.Util.format;
+
+import static Chapter16.example.Util.delay;
+import static Chapter16.example.Util.format;
 
 public class Discount {
 

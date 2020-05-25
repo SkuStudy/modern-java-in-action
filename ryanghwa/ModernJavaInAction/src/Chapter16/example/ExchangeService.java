@@ -1,6 +1,7 @@
 package Chapter16.example;
 
-import static modernjavainaction.chap16.Util.delay;
+
+import static Chapter16.example.Util.delay;
 
 public class ExchangeService {
 
